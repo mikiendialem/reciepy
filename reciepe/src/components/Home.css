@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+.home{
+    background: #F2EAE5;
+}
+.back{
+    width: 100%;
+    height: 400px;
+    background: rgba(188, 115, 29, 0.22);
+}
+.backone{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+.backone .backonedes{
+    color: #7A4200;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.appul{
+    width: 1000px;
+    height: 3px;
+    background: #774000;
+    margin: auto;
+}
+.home .front{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px;
+}
+.home .front .frontclass{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 50px;
+    border:solid 1px #774000;
+    border-radius: 6px;
+    box-shadow: -2px 2px 10px rgb(188 115 29 / 2%);
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #d98320;
+}
+.home input{
+    width: 300px;
+    height: 40px;
+    border: hidden;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 1000px;
+    outline: none;
+}
+.home input::placeholder{
+    text-align: center;
+}
+.appsecmain{
+    color: #774000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+    margin-top: 100px;
+    margin-left: 50px;
+}
